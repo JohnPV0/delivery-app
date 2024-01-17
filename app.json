@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Food Delivery",
+    "slug": "FoodDelivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fooddelivery.client"
+    },
+    "android": {
+      "package": "com.fooddelivery.client",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/bikeGuy.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBfhtG0pMsJzDGBxi6xs2EdIKF-5JThkOY"
+        }
+      } 
+    },
+    "web": {
+      "favicon": "./assets/images/bikeGuy.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d291f006-3f6d-4cac-add3-8c24db22e414"
+      }
+    }
+  }
+}

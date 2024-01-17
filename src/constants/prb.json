@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "Picantes y calientes",
+    "description": "Pollo frito suave y tierno",
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "KFC (Alfredo del mazo)",
+        "image": "/restaurants/kfc.jpeg",
+        "description": "Kentucky Fried Chicken es la primera cadena de comida rápida en México, conocida por sus deliciosos buckets de pollo frito, hamburguesas y un sabor único que antoja a todos por igual.",
+        "lng": 19.308537,
+        "lat": -99.63205,
+        "address": "Via Alfredo del Mazo 700",
+        "stars": 3.6,
+        "reviews": "2.3k",
+        "category": "Comida Rápida",
+        "dishes": [
+          {
+            "id": 1,
+            "name": "Bucket 6 piezas",
+            "type": "Pollo",
+            "description": "6 piezas de pollo frito + 2 bisquets + 1 complemento familiar",
+            "price": 249,
+            "image": "/dishes/kfcDish1.jpeg"
+          },
+          {
+            "id": 2,
+            "name": "Bucket 12 piezas + refresco",
+            "type": "Pollo",
+            "description": "12 piezas de pollo + 2 complementos familiares + 4 Bísquets + 1 Refresco 2L",
+            "price": 449,
+            "image": "/dishes/kfcDish2.jpeg"
+          }
+        ]
+      }
+    ]
+  }
+]
